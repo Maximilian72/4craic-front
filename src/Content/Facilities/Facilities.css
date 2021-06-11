@@ -1,0 +1,14 @@
+.facilities{
+    /* border:2px solid purple; */
+    /* border-bottom: 2px solid #212121; */
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    padding: 2px;
+}
+
+.creatThread{
+    /* align-self: flex-end; */
+    margin-right: 2px;
+}

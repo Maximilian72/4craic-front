@@ -1,0 +1,41 @@
+.header{
+    /* border: 2px solid black; */
+}
+
+.boards{
+    /* border: 2px solid coral; */
+    display: flex;
+    padding: 5px;
+}
+
+.boards a{
+    /* border: 2px solid silver; */
+    padding: 0 2px;
+
+}
+
+.boards p{
+    /* border: 2px solid brown; */
+    padding: 0 2px;
+    margin:0;
+}
+
+.fourCraic{
+    /* border: 2px solid rebeccapurple; */
+
+    margin: 0;
+    margin-top: 2px;
+
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.board{
+    /* border: 2px solid green; */
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}

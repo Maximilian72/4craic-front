@@ -1,0 +1,140 @@
+.posts{
+    /* border: 2px solid green; */
+
+    .post{
+        /* border: 2px solid red; */
+        // border-bottom: 2px solid #6d7573;
+        background-color: #b0c1be;
+        display: flex;
+        padding: 6px;
+        margin-bottom: 6px;
+
+        .postImage{
+            // border: 2px solid red;
+            align-self: flex-start;
+            padding: 4px;
+        }
+
+        .postAndComment{
+            // border: 2px solid green;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100%;
+        
+            .postText{
+                // border: 2px solid hotpink;
+                display: flex;
+                flex-direction: column;
+
+                .postTitle{
+                    // border: 2px solid green;
+                    flex-shrink: 0;
+                    margin: 0;
+                    padding: 4px;
+                    font-size: large;
+                    font-weight: 500;
+                
+                }
+
+                .postDetails{
+                    // border: 2px solid hotpink;
+                    display: flex;
+                    flex-direction: row;
+                    padding: 0;
+                    font-size: small;
+
+                    .postDate{
+                        // border: 2px solid pink;
+                        margin: 0;
+                        padding: 2px;
+                    }
+                    
+                    .postNumber{
+                        // border: 2px solid darkgoldenrod;
+                        margin: 0;
+                        padding: 2px;
+                    }
+
+                }
+                
+                .postBody{
+                    // border: 2px solid blue;
+                    margin: 0;
+                    margin-bottom: 4px;
+                    padding: 4px;
+                }
+
+            }
+        
+            .openThread{
+                // border: 2px solid blue;
+                margin:0;
+                padding: 10px;
+                align-self: end;
+                text-align: right;
+            }
+
+        }
+        
+    }
+    
+    .comment{
+        // border: 2px solid gold;
+        flex-direction: column;
+        background-color: #c7d8d5;
+        margin-bottom: 4px;
+        display: flex;
+        padding: 2px;
+
+        .commentDetails{
+            // border: 2px solid firebrick;
+            display: flex;
+            flex-direction: row;
+            font-size: small;
+
+            .commentDate{
+                // border: 2px solid gray;
+                margin: 0;
+                padding: 2px;
+            }
+            
+            .commentNumber{
+                // border: 2px solid navy;
+                margin: 0;
+                padding: 2px;
+            }
+
+        }
+        
+        .commentAndImage{
+            // border: 2px solid aqua;
+            display: flex;
+            flex-direction: row;
+            
+            .commentImage{
+                // border: 2px solid floralwhite;
+            }            
+    
+            .commentBody{
+                // border: 2px solid seagreen;
+                margin: 0;
+                padding: 2px;
+            }
+    
+        }
+    
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
